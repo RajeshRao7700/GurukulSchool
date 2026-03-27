@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Navbar =() =>{
     return (
         <div className="bg-white">
@@ -20,13 +21,15 @@ const Navbar =() =>{
                     </div>
                 </div>
                 <div></div>
-                <div className="flex d-flex gap-3 items-start mr-20 text-gray-700 font-bold text-lg ">
-                    <button className="px-4 py-2 rounded-xl  hover:bg-gray-400 transition">Home</button>
-                    <button className="px-4 py-2 rounded-xl hover:bg-gray-400 transition">About</button>
-                    <button className="px-4 py-2 rounded-xl hover:bg-gray-400 transition">Services</button>
-                    <button className="px-4 py-2 rounded-xl hover:bg-gray-400 transition">Contact</button>
-                    <button className="px-4 py-2 rounded-xl hover:bg-gray-400 transition">Login</button>
-                    <button className="px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl hover:bg-blue-100">Register</button>
+                <div className="flex d-flex gap-2 items-start mr-10 text-gray-700 font-bold text-md ">
+                    <Link to="/" className="px-4 py-2 rounded-xl  hover:bg-gray-400 transition">Home</Link>
+                    <Link to="/about" className="px-4 py-2 rounded-xl hover:bg-gray-400 transition">About</Link>
+                    <Link to="/academics" className="px-4 py-2 rounded-xl hover:bg-gray-400 transition">Academics</Link>
+                    <Link to="/admission" className="px-4 py-2 rounded-xl hover:bg-gray-400 transition">Admission</Link>
+                    <Link to="/facilities" className="px-4 py-2 rounded-xl hover:bg-gray-400 transition">Facilities</Link>
+                    <Link to="/gallery" className="px-4 py-2 rounded-xl hover:bg-gray-400 transition">Gallery</Link>
+                    <Link to="/contactus" className="px-4 py-2 rounded-xl hover:bg-gray-400 transition">Contact Us</Link>
+                    
                 </div>
             </div>
         </div>
