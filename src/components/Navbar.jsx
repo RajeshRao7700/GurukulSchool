@@ -13,7 +13,7 @@ const Navbar =() =>{
             <div className='flex d-flex items-center justify-between'>
                 <div className="flex d-flex pt-2 ml-20">
                     <div className="h-full">
-                    <img className='w-20 h-20 ml-5' src="./src/assets/vkv_logo.jfif" alt="" />
+                    <img className='w-20 h-20 ml-5' src="./src/assets/vkv_logo.jpg" alt="" />
                     </div>
                     <div className="mt-3 ml-2">
                     <h1 className="text-4xl text-blue-900 font-bold">VKV School</h1>
