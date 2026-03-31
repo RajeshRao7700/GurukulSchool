@@ -30,3 +30,32 @@ export const DetailCard = (props) =>{
 
     )
 }
+
+
+export const TwoXlCard = (props) =>{
+    return(
+        
+            
+                <div className="flex flex-col w-80 h-full justify-center items-center border-gray-300 rounded-md shadow-md p-8 hover:scale-105 hover:shadow-lg transition duration-300 space-y-2">
+                    <h1 className="flex justify-center text-2xl w-16 h-16 bg-blue-500 rounded-full text-white text-bold text-center items-center">{props.number}</h1>
+                    <h1 className="text-xl font-semibold text-center">{props.title}</h1>
+                    <p className="text-sm text-gray-500 text-center">{props.desc}</p>
+                </div>
+            
+    
+    )
+
+
+}
+
+export const LeadCard = (props) =>{
+    return(
+        <div className="flex flex-col w-60 h-52 items-center justify-center">
+            <h1 className="flex justify-center text-white font-bold text-xl items-center w-24 h-24 rounded-full bg-gradient-to-br from-blue-600 to-green-500 mb-5">{props.title}</h1>
+            <h1 className="text-xl font-bold">{props.name}</h1>
+            <h1 className="text-blue-700 font-bold mb-3">{props.des}</h1>
+            <p className="text-sm text-gray-700">{props.edu}</p>
+
+        </div>
+    )
+}

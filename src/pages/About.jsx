@@ -1,4 +1,11 @@
+import { LeadCard } from "../components/Card";
 import Navbar from "../components/Navbar";
+
+const AboutLeadCard =[
+    {title:"RR",name:"Rajesh Rao", des:"CEO", edu :"Ph.D. in Education, 25 years experience"},
+    {title:"RR",name:"Rajesh Rao", des:"CEO", edu :"Ph.D. in Education, 25 years experience"},
+    {title:"RR",name:"Rajesh Rao", des:"CEO", edu :"Ph.D. in Education, 25 years experience"}
+]
 
 function About(){
     return(
@@ -21,11 +28,25 @@ function About(){
             </div>
 
             </div>
-            <div className="flex flex-col justify-center items-center text-center py-20 px-4 h-screen w-full">
-            <h1 className="text-4xl font-bold">About VKV School</h1>
-            <p>
-                VKV School is a premier educational institution dedicated to providing holistic education. With state-of-the-art facilities and experienced faculty, we nurture young minds to become responsible global citizens. Our curriculum balances academic excellence with character development, ensuring students are well-prepared for the challenges of tomorrow.
-            </p>
+            
+
+            <div className="  w-full h-96 mt-10 mb-10">
+                <div className="flex flex-col items-center bg-blue-100 w-11/12 ml-14 h-full rounded-md">
+                <h1 className="text-4xl font-bold mt-10 mb-10">Meet Our Leadership</h1>
+                <div className="flex d-flex gap-36">
+                    {AboutLeadCard.map((lCard, index)=>
+                    <LeadCard
+                    index={index}
+                    title={lCard.title}
+                    name={lCard.name}
+                    des={lCard.des}
+                    edu={lCard.edu}
+
+
+                    />)}
+                </div>
+
+                </div>
 
             </div>
         </div>
