@@ -27,7 +27,7 @@ const Navbar =() =>{
                     <Link to="/academics" className="px-4 py-2 rounded-xl hover:bg-gray-400 transition">Academics</Link>
                     <Link to="/admission" className="px-4 py-2 rounded-xl hover:bg-gray-400 transition">Admission</Link>
                     <Link to="/facilities" className="px-4 py-2 rounded-xl hover:bg-gray-400 transition">Facilities</Link>
-                    <Link to="/gallery" className="px-4 py-2 rounded-xl hover:bg-gray-400 transition">Gallery</Link>
+                    <Link to="/results" className="px-4 py-2 rounded-xl hover:bg-gray-400 transition">Result</Link>
                     <Link to="/contactus" className="px-4 py-2 rounded-xl hover:bg-gray-400 transition">Contact Us</Link>
                     
                 </div>

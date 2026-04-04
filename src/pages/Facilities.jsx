@@ -1,5 +1,5 @@
 import { Banner, DetailCard } from "../components/Card";
-import Footer from "../components/Footer";
+
 
 const banFac = [
     {title:"Facilities", desc:"Our facilities are designed to provide a safe and stimulating environment for our students to learn and grow."}
